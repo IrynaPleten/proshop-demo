@@ -21,3 +21,4 @@ app.get('/api/products/:id', (req, res) => {
 
 
 app.listen(port, () => console.log(`Server is running on port ${port}`))
+
