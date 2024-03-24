@@ -1,5 +1,5 @@
-const addDecimals = num => {
-  return (Math.round(num * 100) / 100).toFixed()
+export const addDecimals = num => {
+	return (Math.round(num * 100) / 100).toFixed()
 }
 
 export const updateCart = state => {
