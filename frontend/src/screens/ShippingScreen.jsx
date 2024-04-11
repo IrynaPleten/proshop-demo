@@ -1,10 +1,10 @@
 import {useState} from 'react'
 import {Form, Button} from 'react-bootstrap'
-import FormContainer from '../components/FormContainer'
+import {FormContainer, CheckoutSteps }from '@components'
 import {useDispatch, useSelector} from 'react-redux'
 import {useNavigate} from 'react-router-dom'
-import { saveShippingAddress } from '../slices/cartSlice'
-import CheckoutSteps from '../components/CheckoutSteps'
+import { saveShippingAddress } from '@slices/cartSlice'
+
 
 const ShippingScreen = () => {
 	const cart = useSelector(state => state.cart)
