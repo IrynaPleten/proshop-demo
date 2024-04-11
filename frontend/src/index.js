@@ -13,7 +13,7 @@ import '@assets/styles/bootstrap.custom.css'
 import '@assets/styles/index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
-import {HomeScreen, ProductScreen, CartScreen, LoginScreen, RegisterScreen, ShippingScreen, PaymentScreen, PlaceOrderScreen, OrderScreen } from '@screens'
+import {HomeScreen, ProductScreen, CartScreen, LoginScreen, RegisterScreen, ShippingScreen, PaymentScreen, PlaceOrderScreen, OrderScreen, ProfileScreen } from '@screens'
 import { PrivateRoute } from '@components'
 
 
@@ -25,13 +25,12 @@ const router = createBrowserRouter(
 			<Route path='/cart' element={<CartScreen />} />
 			<Route path='/login' element={<LoginScreen />} />
 			<Route path='/register' element={<RegisterScreen />} />
-			
-
 			<Route path='' element={<PrivateRoute />}>
 				<Route path='/shipping' element={<ShippingScreen />} />
 				<Route path='/payment' element={<PaymentScreen />} />
 				<Route path='/placeorder' element={<PlaceOrderScreen />} />
 				<Route path='/order/:id' element={<OrderScreen />} />
+				<Route path='/profile' element={<ProfileScreen />} />
 
 
 			</Route>
