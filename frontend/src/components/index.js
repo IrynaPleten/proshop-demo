@@ -1,11 +1,21 @@
-import Footer from "./Footer";
-import Header from "./Header";
-import CheckoutSteps from "./CheckoutSteps";
-import FormContainer from "./FormContainer";
-import Loader from "./Loader";
-import Message from "./Message";
-import PrivateRoute from "./PrivateRoute";
-import Product from "./Product";
-import Rating from "./Rating";
+import Footer from './Footer.jsx'
+import Header from './Header.jsx'
+import CheckoutSteps from './CheckoutSteps.jsx'
+import FormContainer from './FormContainer.jsx'
+import Loader from './Loader.jsx'
+import Message from './Message.jsx'
+import PrivateRoute from './PrivateRoute.jsx'
+import Product from './Product.jsx'
+import Rating from './Rating.jsx'
 
-export {Footer, Header, CheckoutSteps, FormContainer, Loader, Message, PrivateRoute, Product, Rating}
+export {
+	Footer,
+	Header,
+	CheckoutSteps,
+	FormContainer,
+	Loader,
+	Message,
+	PrivateRoute,
+	Product,
+	Rating,
+}

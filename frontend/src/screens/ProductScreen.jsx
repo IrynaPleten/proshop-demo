@@ -1,6 +1,6 @@
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { Row, Col, Image, ListGroup, Card, Button, Form } from 'react-bootstrap'
-import {Rating, Loader, Message } from '@components'
+import { Rating, Loader, Message } from '@components'
 import { useGetProductDetailsQuery } from '@slices/productsApiSlice'
 import { useState } from 'react'
 import { addToCart } from '@slices/cartSlice'
