@@ -7,6 +7,8 @@ import Message from './Message.jsx'
 import PrivateRoute from './PrivateRoute.jsx'
 import Product from './Product.jsx'
 import Rating from './Rating.jsx'
+import AdminRoute from './AdminRoute.jsx'
+
 
 export {
 	Footer,
@@ -18,4 +20,5 @@ export {
 	PrivateRoute,
 	Product,
 	Rating,
+	AdminRoute
 }

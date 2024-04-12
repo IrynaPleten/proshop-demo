@@ -8,6 +8,8 @@ import ProductScreen from './ProductScreen.jsx'
 import RegisterScreen from './RegisterScreen.jsx'
 import ShippingScreen from './RegisterScreen.jsx'
 import ProfileScreen from './ProfileScreen.jsx'
+import OrderListScreen from './admin/OrderListScreen.jsx'
+
 
 export {
 	CartScreen,
@@ -20,4 +22,5 @@ export {
 	RegisterScreen,
 	ShippingScreen,
 	ProfileScreen,
+	OrderListScreen
 }
