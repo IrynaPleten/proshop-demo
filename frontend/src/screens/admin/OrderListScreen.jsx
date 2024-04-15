@@ -1,5 +1,5 @@
 import { LinkContainer } from 'react-router-bootstrap'
-import { Table, Button, Tab } from 'react-bootstrap'
+import { Table, Button} from 'react-bootstrap'
 import { FaTimes } from 'react-icons/fa'
 import { Message, Loader } from '@components'
 import { useGetOrdersQuery } from '@slices/ordersApiSlice'

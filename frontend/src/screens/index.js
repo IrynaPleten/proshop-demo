@@ -9,6 +9,7 @@ import RegisterScreen from './RegisterScreen.jsx'
 import ShippingScreen from './RegisterScreen.jsx'
 import ProfileScreen from './ProfileScreen.jsx'
 import OrderListScreen from './admin/OrderListScreen.jsx'
+import ProductListScreen from './admin/ProductListScreen.js'
 
 
 export {
@@ -22,5 +23,6 @@ export {
 	RegisterScreen,
 	ShippingScreen,
 	ProfileScreen,
-	OrderListScreen
+	OrderListScreen,
+	ProductListScreen
 }
