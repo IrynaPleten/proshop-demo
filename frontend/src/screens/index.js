@@ -10,6 +10,7 @@ import ShippingScreen from './RegisterScreen.jsx'
 import ProfileScreen from './ProfileScreen.jsx'
 import OrderListScreen from './admin/OrderListScreen.jsx'
 import ProductListScreen from './admin/ProductListScreen.jsx'
+import ProductEditScreen from './admin/ProductEditScreen.jsx'
 
 
 export {
@@ -24,5 +25,6 @@ export {
 	ShippingScreen,
 	ProfileScreen,
 	OrderListScreen,
-	ProductListScreen
+	ProductListScreen,
+	ProductEditScreen,
 }
