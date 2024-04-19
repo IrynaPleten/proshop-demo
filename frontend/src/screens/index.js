@@ -9,7 +9,7 @@ import RegisterScreen from './RegisterScreen.jsx'
 import ShippingScreen from './RegisterScreen.jsx'
 import ProfileScreen from './ProfileScreen.jsx'
 import OrderListScreen from './admin/OrderListScreen.jsx'
-import ProductListScreen from './admin/ProductListScreen.js'
+import ProductListScreen from './admin/ProductListScreen.jsx'
 
 
 export {
