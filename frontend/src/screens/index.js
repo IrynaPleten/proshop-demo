@@ -11,6 +11,8 @@ import ProfileScreen from './ProfileScreen.jsx'
 import OrderListScreen from './admin/OrderListScreen.jsx'
 import ProductListScreen from './admin/ProductListScreen.jsx'
 import ProductEditScreen from './admin/ProductEditScreen.jsx'
+import UserListScreen from './admin/UserListScreen.jsx'
+
 
 
 export {
@@ -27,4 +29,5 @@ export {
 	OrderListScreen,
 	ProductListScreen,
 	ProductEditScreen,
+	UserListScreen,
 }
