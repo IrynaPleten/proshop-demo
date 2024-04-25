@@ -2,7 +2,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 import { Table, Button, Row, Col} from 'react-bootstrap'
 import { FaEdit, FaTrash } from 'react-icons/fa'
 import { Message, Loader } from '@components'
-import { useGetProductsQuery, useCreateProductMutation } from '@slices/productsApiSlice'
+import { useGetProductsQuery, useCreateProductMutation, useDeleteProductMutation } from '@slices/productsApiSlice'
 import { toast } from 'react-toastify'
 
 const ProductListScreen = () => {
@@ -11,8 +11,18 @@ const ProductListScreen = () => {
 
 	const [createProduct, {isLoading: loadingCreate}] = useCreateProductMutation()
 
-	const deleteHandler = id => {
-		console.log('delete', id)
+	const [deleteProduct, {isLoading: loadingDelete}] = 
+	useDeleteProductMutation()
+
+	const deleteHandler = async id => {
+		if(window.confirm('Are you sure?')){
+			try{
+				await deleteProduct(id)
+				refetch()
+			} catch(error){
+				toast.error(error?.data?.message || error.error)
+			}
+		}
 	}
 
 	const createProductHandler = async () => {
@@ -40,6 +50,8 @@ const ProductListScreen = () => {
 			</Row>
 
 			{loadingCreate && <Loader/>}
+			{loadingDelete && <Loader/>}
+
 
 			{isLoading ? (
 				<Loader />
