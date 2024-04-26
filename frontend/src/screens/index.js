@@ -12,6 +12,8 @@ import OrderListScreen from './admin/OrderListScreen.jsx'
 import ProductListScreen from './admin/ProductListScreen.jsx'
 import ProductEditScreen from './admin/ProductEditScreen.jsx'
 import UserListScreen from './admin/UserListScreen.jsx'
+import UserEditScreen from './admin/UserEditScreen.jsx'
+
 
 
 
@@ -30,4 +32,6 @@ export {
 	ProductListScreen,
 	ProductEditScreen,
 	UserListScreen,
+	UserEditScreen,
+
 }
