@@ -8,6 +8,7 @@ import PrivateRoute from './PrivateRoute.jsx'
 import Product from './Product.jsx'
 import Rating from './Rating.jsx'
 import AdminRoute from './AdminRoute.jsx'
+import Paginate from './Paginate.jsx'
 
 
 export {
@@ -20,5 +21,6 @@ export {
 	PrivateRoute,
 	Product,
 	Rating,
-	AdminRoute
+	AdminRoute,
+	Paginate
 }

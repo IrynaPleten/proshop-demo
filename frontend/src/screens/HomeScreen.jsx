@@ -1,5 +1,5 @@
 import { Col, Row } from 'react-bootstrap'
-import { Product, Loader, Message } from '@components'
+import { Product, Loader, Message, Paginate } from '@components'
 import { useGetProductsQuery } from '@slices/productsApiSlice'
 import {useParams} from 'react-router-dom'
 
@@ -25,6 +25,8 @@ const HomeScreen = () => {
 							</Col>
 						))}
 					</Row>
+					<Paginate
+					pages={data.pages} page={data.page}/>
 				</>
 			)}
 		</>
