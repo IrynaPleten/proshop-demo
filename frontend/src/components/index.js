@@ -10,6 +10,7 @@ import Rating from './Rating.jsx'
 import AdminRoute from './AdminRoute.jsx'
 import Paginate from './Paginate.jsx'
 import SearchBox from './SearchBox.jsx'
+import ProductCarousel from './ProductCarousel.jsx'
 
 
 
@@ -25,5 +26,6 @@ export {
 	Rating,
 	AdminRoute,
 	Paginate,
-	SearchBox
+	SearchBox,
+	ProductCarousel
 }
