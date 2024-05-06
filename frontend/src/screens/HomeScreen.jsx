@@ -1,5 +1,5 @@
 import { Col, Row } from 'react-bootstrap'
-import { Product, Loader, Message, Paginate, ProductCarousel } from '@components'
+import { Product, Loader, Message, Paginate, ProductCarousel, Meta } from '@components'
 import { useGetProductsQuery } from '@slices/productsApiSlice'
 import { Link, useParams } from 'react-router-dom'
 

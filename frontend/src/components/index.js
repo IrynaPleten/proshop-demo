@@ -11,6 +11,7 @@ import AdminRoute from './AdminRoute.jsx'
 import Paginate from './Paginate.jsx'
 import SearchBox from './SearchBox.jsx'
 import ProductCarousel from './ProductCarousel.jsx'
+import Meta from './Meta.jsx'
 
 
 
@@ -27,5 +28,6 @@ export {
 	AdminRoute,
 	Paginate,
 	SearchBox,
-	ProductCarousel
+	ProductCarousel,
+	Meta,
 }

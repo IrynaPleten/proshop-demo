@@ -1,6 +1,6 @@
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { Row, Col, Image, ListGroup, Card, Button, Form } from 'react-bootstrap'
-import { Rating, Loader, Message } from '@components'
+import { Rating, Loader, Message, Meta } from '@components'
 import {
   useGetProductDetailsQuery,
   useCreateReviewMutation,
@@ -67,6 +67,7 @@ const ProductScreen = () => {
         </Message>
       ) : (
         <>
+        <Meta title={product.name}/>
           <Row>
             <Col md={5}>
               <Image src={product.image} alt={product.name} fluid />
