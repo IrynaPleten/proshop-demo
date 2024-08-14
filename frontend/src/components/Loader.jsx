@@ -1,19 +1,18 @@
-import { Spinner } from "react-bootstrap"
+import { Spinner } from 'react-bootstrap';
 
 const Loader = () => {
-	return (
-		<Spinner 
-		animation='border' 
-		role='status' 
-		style={{
-			width: '100px', 
-			height: '100px', 
-			margin: 'auto',
-			display: 'block' 
-		}}>
+  return (
+    <Spinner
+      animation='border'
+      role='status'
+      style={{
+        width: '100px',
+        height: '100px',
+        margin: 'auto',
+        display: 'block',
+      }}
+    ></Spinner>
+  );
+};
 
-		</Spinner>
-	)
-}
-
-export default Loader
+export default Loader;
