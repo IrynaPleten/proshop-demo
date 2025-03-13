@@ -11,5 +11,11 @@ module.exports = {
 			'@slices': resolvePath('./src/slices'),
 			'@utils': resolvePath('./src/utils'),
 		},
+
+		
 	},
+
+		devServer: {
+			allowedHosts: "all"
+		},
 }
